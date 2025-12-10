@@ -81,9 +81,8 @@ Si ejecutaste npm run dev:seed, puedes usar estas credenciales pre-cargadas para
 | **Traveler** | `elkin@traveler.com` | `123` | Usuario para pruebas nuevas. |
 
 ## Estructura del Proyecto
-El código sigue una arquitectura modular y limpia:
+El código sigue una arquitectura modular:
 * **src/graphql:** Esquemas y Resolvers separados por dominio.
-* **src/services:** Lógica de negocio pura (validaciones, cálculos).
-* **src/models:** Definiciones de tablas (Sequelize).
-* **src/db:** Configuración de conexión y scripts de Seeding.
-* **src/utils:** Middlewares de permisos y helpers.
+* **src/services:** Lógica de negocio (validaciones, cálculos).
+* **src/models:** Definiciones de tablas.
+* **src/db:** Configuración de conexión y scriptS de Seeding.
