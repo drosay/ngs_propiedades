@@ -73,7 +73,12 @@ Playground: http://localhost:4000/graphql
 
 ### Datos de Prueba
 Si ejecutaste npm run dev:seed, puedes usar estas credenciales pre-cargadas para probar el sistema inmediatamente:
-RolEmailPasswordDescripciónOwnerdilan@gmail.com123Tiene 2 propiedades (Playa y Cabaña).Ownersandra@gmail.com123Tiene 1 propiedad (Casa Ciudad).Travelergybram@traveler.com123Ya tiene reservas activas.Travelerelkin@traveler.com123Usuario para pruebas nuevas.
+| Rol | Email | Password | Descripción |
+| :--- | :--- | :--- | :--- |
+| **Owner** | `dilan@gmail.com` | `123` | Tiene 2 propiedades (Playa y Cabaña). |
+| **Owner** | `sandra@gmail.com` | `123` | Tiene 1 propiedad (Casa Ciudad). |
+| **Traveler** | `gybram@traveler.com` | `123` | Ya tiene reservas activas. |
+| **Traveler** | `elkin@traveler.com` | `123` | Usuario para pruebas nuevas. |
 
 ## Estructura del Proyecto
 El código sigue una arquitectura modular y limpia:
